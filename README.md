@@ -12,6 +12,12 @@ Lockdowns are exercised when the value of the contagion coefficient R exceeds a 
 Which buildings will close is determined by the type of lockdown. 
 The outputs of the simulation model allow observing the spread of the epidemic across various scales and tracing complete contagion chains.
 
+**Dependencies:**
+1. Numpy (v. 1.19.2)
+2. Pandas (v. 1.2.4)
+3. Networkx (v. 2.5.1)
+4. Scipy (v. 1.6.2)
+
 **Inputs:** The model requires two inputs in the form of csv files - one containing information on agents (ID, household ID, age, employment status, etc.) and the 
 other on buildings (ID, landuse, floorspace, etc.)
 The files provided here are entirely synthetic and do not relate to any real world environment.
